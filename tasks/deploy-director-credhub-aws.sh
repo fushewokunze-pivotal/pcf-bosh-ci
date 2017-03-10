@@ -30,7 +30,7 @@ BOSHVARS
 cp bosh-state/*-bosh-state.json new-bosh-state/bosh-state.json
 cp bosh-vars-store/*-bosh-vars-store.yml new-bosh-vars-store/bosh-vars-store.yml
 
-bosh delete-env  penguin-ci/manifests/credhub/init-aws-director.yml \
+bosh create-env  penguin-ci/manifests/credhub/init-aws-director.yml \
   --state new-bosh-state/bosh-state.json \
   --vars-store new-bosh-vars-store/bosh-vars-store.yml \
   --vars-file bosh-vars.yml \
