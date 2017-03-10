@@ -19,4 +19,4 @@ outputs:
 - name: new-bosh-vars-store
 
 run:
-  path: pcf-bosh-ci/tasks/deploy-director-aws.sh
+  path: pcf-bosh-ci/tasks/deploy-director-credhub-aws.sh
