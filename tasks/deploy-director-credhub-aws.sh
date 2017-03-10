@@ -32,7 +32,6 @@ cp bosh-vars-store/*-bosh-vars-store.yml new-bosh-vars-store/bosh-vars-store.yml
 
 bosh create-env  penguin-ci/manifests/credhub/init-aws-director.yml \
   --state new-bosh-state/bosh-state.json \
-  --ops-file pcf-bosh-ci/ops-files/aws-director-overrides.yml \
   --vars-store new-bosh-vars-store/bosh-vars-store.yml \
   --vars-file bosh-vars.yml \
   --var-file private_key=bosh-private-key/bosh-private-key
