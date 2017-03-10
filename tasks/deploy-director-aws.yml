@@ -12,6 +12,7 @@ inputs:
 - name: bosh-private-key
 - name: bosh-vars-store
 - name: terraform-state
+- name: penguin-ci
 
 outputs:
 - name: new-bosh-state
