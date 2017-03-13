@@ -11,6 +11,7 @@ inputs:
 - name: bosh-vars-store
 - name: terraform-state
 - name: ipsec-zip
+- name: ipsec-config
 
 run:
   path: pcf-bosh-ci/tasks/update-runtime-config.sh
