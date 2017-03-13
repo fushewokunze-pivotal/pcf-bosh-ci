@@ -46,4 +46,4 @@ BOSHVARS
 
 ls -l
 bosh -n upload-release ipsec-zip/ipsec-1.5.37.tgz
-bosh -n update-runtime-config penguin-ci/manifests/ipsec/ipsec-addon.yml 
+bosh -n update-runtime-config ipsec-config/ipsec-addon.yml 
