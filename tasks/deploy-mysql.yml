@@ -8,9 +8,7 @@ image_resource:
 inputs:
 - name: pcf-bosh-ci
 - name: p-mysql-deployment
-- name: mysql-vars-store
 - name: bosh-vars-store
-- name: cf-vars-store
 - name: terraform-state
 
 outputs:
