@@ -49,5 +49,4 @@ bosh -n deploy p-mysql-deployment/mysql-deployment.yml \
   --ops-file p-mysql-deployment/operations/monitoring-skip-ssl-validation.yml \
   --ops-file p-mysql-deployment/operations/register-proxy-route.yml \
   --ops-file pcf-bosh-ci/ops-files/p-mysql-overrides.yml \
-  --vars-file p-mysql-vars.yml \
-  --vars-store new-mysql-vars-store/mysql-vars-store.yml
+  --vars-file p-mysql-vars.yml 
