@@ -10,6 +10,7 @@ inputs:
 - name: penguin-ci
 - name: bosh-vars-store
 - name: terraform-state
+- name: ipsec-zip
 
 run:
   path: pcf-bosh-ci/tasks/update-runtime-config.sh
