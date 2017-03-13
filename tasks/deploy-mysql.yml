@@ -8,8 +8,10 @@ image_resource:
 inputs:
 - name: pcf-bosh-ci
 - name: p-mysql-deployment
-- name: bosh-vars-store
+- name: bosh-vars-store 
+- name: mysql-vars-store
 - name: terraform-state
+
 
 outputs:
 - name: new-mysql-vars-store
