@@ -44,4 +44,5 @@ ssh_proxy_lb_security_groups:
 - "$(jq -r .vms_security_group_id terraform-state/metadata)"
 BOSHVARS
 
+bosh -n upload-release ipsec-1.5.37.tgz
 bosh -n update-runtime-config penguin-ci/manifests/ipsec/ipsec-addon.yml 
