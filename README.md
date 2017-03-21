@@ -5,7 +5,7 @@ PCF BOSH CI is a collection of tasks and ops-files to help deploy and manage PCF
 ## BOSH
 
 BOSH is deployed using [https://github.com/cloudfoundry/bosh-deployment](bosh-deployment). The vars necessary to deploy with [tasks/deploy-director.sh](deploy-director.sh) are the same as bosh-deployment:
-
+     
 ## Cloud Foundry
 
 Cloud Foundry is deployed using [https://github.com/cloudfoundry/cf-deployment](cf-deployment). The vars necessary to deploy are the same as cf-deployment with some additions. See the [tasks/deploy-ert.sh](deploy-ert.sh) task for the list of variables.
